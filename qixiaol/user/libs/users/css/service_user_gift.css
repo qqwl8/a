@@ -1,0 +1,247 @@
+/*用户中心*/
+html,body {
+    background: #FFF;
+}
+
+.cf {
+  zoom: 1;
+}
+
+.fl {
+  float: left;
+  _display: inline;
+}
+
+/*礼包属性*/
+.corner.corner-rec {
+	width: 38px;
+	height: 38px;
+	background: transparent url(../images/corner.png) no-repeat;
+}
+
+.corner-hot-r {
+	background-position: -40px 0
+}
+
+.corner-hot-g {
+	background-position: -80px 0
+}
+
+.corner-new-o {
+	background-position: -120px -20px;
+	width: 23px;
+	height: 9px;
+	display: inline-block
+}
+
+.corner-new-g {
+	background-position: -120px 0;
+	width: 25px;
+	height: 9px;
+	display: inline-block
+}
+
+.corner-arrow-l {
+	background-position: -149px -2px
+}
+
+.corner-arrow-l:hover {
+	background-position: -195px -2px
+}
+
+.corner-arrow-r {
+	background-position: -173px -2px
+}
+
+.corner-arrow-r:hover {
+	background-position: -217px -2px
+}
+
+.corner-rec {
+	background-position: -240px 0
+}
+
+/*礼包中心*/
+#user_gift {
+    width: 980px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#user_gift h2 {
+  font-size: 18px;
+  color: #ff5700;
+  font-weight: bold;
+}
+#user_gift .content{ clear: both; background:#fff;overflow: hidden; _display:table; _width:100%;  margin: 20px 0 15px;}
+#user_gift .Hot {
+    display: table;
+    width: 100%;
+    padding-bottom: 10px;
+}
+#user_gift .Hot dt {
+    border-top: 2px solid #FF7D00;
+    border-bottom: 1px solid #F4F4F4;
+    line-height: 2.2em;
+    padding: 0 23px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+#user_gift .Hot dd {
+    float: left;
+/*     width: 158px; */
+    min-height: 6px;
+    _height: 26px;
+    padding: 10px 30px 0px 10px;
+}
+/*礼包中心说明*/
+#user_gift .gift-filter {
+	width: 960px;
+    height: 50px;
+	margin: 10px auto 10px;
+	padding: 6px;
+	border: 1px solid #c5e9f1;
+	background-color: #effaff;
+	border-radius: 1px;
+	box-shadow: inset 0 0 0 1px #fff;
+	margin-bottom: 15px;
+}
+
+#user_gift .gift-filter-item {
+	width: 655px;
+}
+
+#user_gift .gift-filter-item-first {
+    height: 50px;
+    line-height: 50px;
+}
+
+#user_gift .gift-filter-item strong {
+	display: inline-block;
+	width: 600px;
+	text-align: center;
+}
+
+#user_gift .gift-filter-total {
+	font-size: 14px;
+	padding-left: 55px;
+	border-left: 1px solid #bcdee5;
+	width: 110px
+}
+
+#user_gift .gift-record-total {
+	font-size: 16px;
+	padding-left: 50px;
+	border-left: 1px solid #bcdee5;
+	width: 120px;
+	height: 50px
+}
+#user_gift .gift-record-total p {
+	padding-left: 22px;
+	background: url(../images/gift-record.png) no-repeat 0 50%;
+	line-height: 50px
+}
+
+#user_gift .gift-record-total a {
+	color: #414141
+}
+
+#user_gift .gift-record-total a:hover {
+	color: #3fb2e8
+}
+
+#user_gift .gift-filter-total strong {
+	font-size: 26px
+}
+/*礼包中心列表*/
+
+#user_gift .gift-list {
+	margin: 30px auto;
+	width: 950px;
+    height: 160px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #cdc9c4
+}
+#user_gift .gift-img {
+	position: relative;
+	display: block;
+	width: 349px;
+	height: 141px;
+	padding-top: 8px;
+	text-align: center;
+	background: transparent url(../images/bg-img.png) no-repeat
+}
+
+#user_gift .gift-img .corner {
+	position: absolute;
+	top: 0;
+	left: 0
+}
+#user_gift .gift-info {
+	position: relative;
+	width: 580px;
+	margin-left: 15px
+}
+
+#user_gift .gift-condition {
+	color: #717171;
+	font-size: 12px;
+	font-weight: 400;
+/* 	margin-left: 10px */
+}
+#user_gift .gift-server {
+	color: red;
+	font-size: 12px;
+	font-weight: 400;
+/* 	margin-left: 10px */
+}
+
+#user_gift .gift-detail {
+	font-size: 14px;
+	width: 435px;
+ 	margin-top: 5px;
+	margin-bottom: 5px; 
+	height: 90px;
+	overflow: hidden
+}
+
+#user_gift .gift-btn {
+	position: absolute;
+	top: 20px;
+	right: 5px;
+	width: 99px;
+	text-align: center;
+	font-size: 14px
+}
+
+#user_gift .gift-btn .btn {
+	margin-top: 10px
+}
+
+#user_gift .gift-btn a {
+  display: block;
+  margin-top: 10px;
+  width: 99px;
+  height: 27px;
+  font-size: 14px;
+  background: #1c96d9;
+  color: white;
+  text-align: center;
+  line-height: 27px;
+  text-decoration: none;
+}
+
+#user_gift .gift-btn a:hover {
+    background: #ff6600;
+    color: white;
+}
+
+#user_gift .gift-footer {
+	height: 24px
+}
+
+#user_gift .gift-footer .btn {
+	margin-left: 15px
+}

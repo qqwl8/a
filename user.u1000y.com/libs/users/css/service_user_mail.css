@@ -1,0 +1,142 @@
+/*邮箱绑定*/
+html,body {
+    background: #FFF;
+}
+
+#mail_reg_main {
+    width: 1000px;
+    height: 360px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#mail_reg_main .main_mail_a {
+    font-weight: 700;
+    color: #FE3A06;
+    font-size: 30px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+
+#mail_reg_main .main_mail_b {
+    display: block;
+    width: 500px;
+    height: 40px;
+    font-size: 14px;
+	/*color: white;
+	font-weight: 700;
+	background-color: #fa9114;
+	text-align: center;*/
+    line-height: 40px;
+    position: absolute;
+    top: 140px;
+    left: 35px;
+}
+
+#mail_reg_main .main_mail_c {
+    position: absolute;
+    top: 240px;
+    left: 35px;
+}
+
+#mail_reg_main .main_a {
+    font-weight: 700;
+    color: #FE3A06;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+
+#mail_reg_main .main_b {
+    display: block;
+    width: 260px;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    background-color: #fa9114;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 140px;
+    left: 35px;
+}
+
+#mail_reg_main .main_c {
+    display: block;
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    background-color: #fa9114;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 140px;
+    left: 300px;
+}
+
+#mail_reg_main ul li {
+    float: left;
+    padding-right: 20px;
+}
+
+#mail_reg_main ul li a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: #fa9114;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+#mail_reg_main dl {
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    width: 518px;
+    height: 118px;
+    border: 1px #eaeaea solid;
+    padding-left: 15px;
+    padding-top: 25px;
+    position: relative;
+}
+
+#mail_reg_main dl dt {
+    font-size: 14px;
+    color: #9b9b9b;
+    font-weight: 700;
+}
+
+#mail_reg_main dl dd a {
+    height: 30px;
+    line-height: 32px;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #9e949c;
+}
+
+#mail_reg_main dl dd .yuan {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../Images/yuan.jpg') no-repeat;
+}
+
+#mail_reg_main dl dd .yuan2 {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../Images/yuan_2.jpg') no-repeat;
+}

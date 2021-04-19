@@ -1,0 +1,263 @@
+﻿/*弹窗*/
+.tanc {
+    width: 385px;
+    height: auto;
+    overflow: hidden;
+    background: #fffdf5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: '微软雅黑';
+    color: #666;
+	padding-bottom: 10px;
+}
+
+.tanc h3 {
+    font-size: 14px;
+    width: 385px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 32px;
+    font-weight: bold;
+}
+
+.tanc h4 {
+    font-size: 12px;
+    width: 385px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 32px;
+    font-weight: bold;
+}
+
+.tanc .shouji {
+    font-size: 12px;
+    width: 385px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 32px;
+}
+.tanc .v_resend {
+    font-size: 14px;
+    width: 385px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 100px;
+}
+
+.tanc .v_resend input{
+	background: #0A8CD2;
+	color: #fff;
+	border: 0 none;
+	height: 26px;
+	width: 120px;
+	margin: 10px 0;
+}
+
+.tanc .mp {
+    font-size: 14px;
+    width: 385px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 50px;
+}
+
+.tanc .mp_img {
+    width: 385px;
+    height: 200px;
+    line-height: 200px;
+    margin: 0 50px;
+}
+
+.tanc .mp_img img {
+    width: 200px;
+    height: 200px;
+}
+
+.tanc .text {
+    height: 25px;
+    padding: 5px;
+    border: 1px solid #d8d8d8;
+    line-height: 25px;
+}
+
+.tanc .btn_com {;
+    width: 95px;
+    height: 34px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 0 none;
+}
+
+.tanc .btn_com.disabled, .tanc .btn_com[disabled],fieldset[disabled] .tanc .btn_com {
+ cursor:not-allowed;
+ opacity:.65;
+ filter:alpha(opacity=65);
+ -webkit-box-shadow:none;
+ box-shadow:none
+}
+.tanc .queren {
+    background: #fe9e06;
+    margin-left: 72px;
+    margin-right: 10px;
+}
+
+.tanc .queren:hover {
+    background: #dd8905;
+}
+
+.tanc .quxiao {
+    background: #a4a2a2;
+}
+
+.tanc .quxiao:hover {
+    background: #7c7878;
+}
+
+#box1 .text {
+    width: 260px;
+    margin: 15px 32px;
+}
+
+#box1 span {
+    display: block;
+    width: 385px;
+    font-size: 12px;
+    margin-left: 32px;
+}
+
+.tanc ul {
+    width: 385px;
+    height: 50px;
+    margin-left: 10px;
+    margin: 0 32px;
+}
+
+.tanc ul li {
+    color: #666;
+    font-size: 12px;
+    font-weight: 700;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+
+.tanc ul li b {
+    display: block;
+    width: 80px;
+    text-align: right;
+}
+
+.tanc ul li ._input {
+    width: 230px;
+    height: 25px;
+    padding: 5px;
+    border: 1px solid #d8d8d8;
+    line-height: 25px;
+}
+
+#box2 .text {
+    width: 257px;
+}
+
+#box3 .text {
+    width: 300px;
+    margin: 15px 32px;
+}
+
+#box3 span {
+    display: block;
+    width: 385px;
+    font-size: 12px;
+    margin-left: 32px;
+}
+
+#box4 .text {
+    width: 226px;
+}
+
+.tanc select {
+    margin-top: 15px;
+}
+
+#keep {
+    width: 100%;
+    height: 980px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    background: black;
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+    display: none;
+}
+
+.tanc .err {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    background: url("../Images/err_ico.png") no-repeat;
+    background-position: 6px;
+    font-size: 12px;
+    padding: 0 0 0px 22px;
+    color: #FF3C00;
+    /* margin-bottom: 10px; */
+    margin-left: 30px;
+}
+
+.tanc .err1 {
+    width: 200px;
+    height: 16px;
+    background: url("../Images/err_ico.png") no-repeat;
+    font-size: 12px;
+    padding: 0 0 0px 22px;
+    color: #FF3C00;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.tanc .main_mail_a {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    top: 80px;
+    margin-left: 30px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.tanc .main_mail_b {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    top: 140px;
+    margin-left: 30px;
+}
+
+.tanc .main_mail_c {
+    top: 240px;
+    margin-left: 30px;
+}
+
+.tanc .main_mail_c li {
+    float: left;
+    padding-right: 20px;
+}
+
+#wait {
+   color: #FF0000;
+}
+.error {
+   color: #FF4500;
+}
+
+.success {
+   color: #008000;
+}

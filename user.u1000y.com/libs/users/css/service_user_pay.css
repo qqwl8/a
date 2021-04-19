@@ -1,0 +1,219 @@
+/*充值中心*/
+.wrap{width:1002px;margin:0 auto;}
+.bigBox{width:976px;margin-top:10px;margin-bottom:10px;padding:12px;border:1px solid #d7e1f0; position:relative;}
+.payTab{width:976px;height:30px;margin-bottom:30px;border-bottom:3px solid #fe3b06;}
+.payTab a{width:130px;height:30px;line-height:30px; margin-right:5px;text-align:center;  font-size:14px;color:#ff3600;background-color:#ffcdbf;float:left;_display:inline;}
+.payTab a:hover,.payTab a.aOn{color:#fff;background-color:#fe3b06;}
+
+
+.payStep{padding-left:30px;}
+.payStep dl,.payBank dl,.payStep p{margin-bottom:25px;line-height:30px;font-size:14px; }
+.payStep dt,.payBank dt,.payStep p label,.paypal p label,.paypal dt,.eMail label{width:100px;line-height:30px; text-align:right; font-weight:bold;font-size:14px;color:#5c5c5c;float:left;}
+.payStep dd,.payBank dd,.paypal dd{float:left;}
+.nameDiv{height:55px; position:relative; z-index:9;}
+.lastTarget_p{height:55px; position:relative; z-index:9;}
+
+.payStep p,.paypal p{height:30px;}
+.payStep p strong{height:30px;line-height:30px;margin-right:5px;color:#525252;font-size:20px;float:left;_display:inline;}
+.payStep p strong.str2{ font-size:26px; font-family:Arial, Helvetica, sans-serif;color:#f60;}
+.payStep p strong.str3{font-size:14px;}
+.payStep p span,.choiceT span,.paySel span{height:20px;line-height:20px;margin:5px 0 0 5px;color:#b76d43;float:left;_display:inline;}
+.payStep p span var,.choiceT span var,.paySel span var{margin: 0 5px;display:inline-block;color:#D94700;}
+.payStep p span.warn,.choiceT span.warn,.paySel span.warn{margin-left:5px;padding-left:20px;color:#f00;background:url("../images/payIco.jpg") no-repeat 0 -424px;float:left;}
+.payStep p span.suc,.choiceT span.suc,.paySel span.suc{width: 50px;background: url("../images/payIco.jpg") no-repeat 0 -388px }
+.paySel select{
+width: 180px;
+height: 30px;
+line-height: 30px;
+margin-right: 10px;
+padding: 0 0 0 4px;
+text-align: center;
+font-weight: bold;
+color: #515151;
+float: left;
+}
+
+
+.payStep p var{height:32px;line-height:32px;color:#5c5c5c;float:left;}
+.payStep p em{height:32px;line-height:32px;color:#ff4200;float:left;}
+.payStep p a.aFor{width:65px;height:20px;line-height:20px;_line-height:22px;margin:6px 0 0 10px; text-align:center;color:#fe3b06;/*padding-left:20px;background:url(../images/payIco.jpg) no-repeat 0 -178px;*/float:left;_display:inline; _overflow:hidden;}
+.payStep p a.aFon{background:url(../images/pay.jpg) no-repeat 0 -177px;}
+.payStep p a.aBao{height:18px;line-height:18px;margin:4px 0 0 10px;color:#006ef5;float:left;}
+.payStep a.isA{width:102px;height:32px;line-height:32px;margin-right:10px; text-align:center;font-size:13px; color:#5a5a5a;background:url(../images/pay.jpg) no-repeat 0 -60px;float:left; position:relative;}
+.payStep a.isA:hover,.payStep p a.aOn,.payStep a.aHover,.payStep .payMod a.aOn,.phonePay a.aOn,.vips a.aOn,.jinList a.aOn,.bigTab a.aOn{color:#fe3b06;background:url(../images/pay.jpg) no-repeat 0 -92px;}
+.payStep a i.iA{width:16px;height:16px;display:block; text-indent:-999em;overflow:hidden;background:url(../images/payIco.jpg) no-repeat;position:absolute;right:0;top:0;}
+.payStep a i.iA2{background:url(../images/payIco.jpg) no-repeat -17px 0;}
+.payStep a i.iA3{background:url(../images/payIco.jpg) no-repeat -34px 0;}
+.payStep a i.iB{display:none;}
+.payStep a.aOn i.iB{width:14px;height:14px;display:block; text-indent:-999em;overflow:hidden;background:url(../images/iOn.gif) no-repeat;position:absolute;right:0;bottom:0;}
+
+/* 支付方式 */
+.payBank{width:850px;margin-bottom:15px;}
+.payBank dd{width:750px;}
+.payMod{height:32px;position:relative; z-index:2;}
+
+
+.payIs{height:20px;line-height:20px;margin-top:20px;}
+.payIs strong{color:#1999e7;font-weight:normal;}
+.bankList,.bankList ul,.phonePay,.phonePay ul{width:655px;}
+.bankList,.phonePay,.qyCard{margin-top:20px;}
+.bankCon{height:156px; overflow:hidden; position:relative;}
+.bankList ul li,.phonePay ul li{width:150px;height:34px;margin-right:10px;padding-bottom:20px;float:left;}
+.bankList ul,.bankList ul li{position:relative;}
+
+.phonePay ul li{padding-bottom:0}
+.bankList li a,.phonePay li a{width:125px;height:30px;border:2px solid #d9d9da;display:block; position:relative;}
+.bankList li a var,.phonePay li a var{width:14px;height:14px;background:url(../images/iOn.gif) no-repeat; position:absolute;right:-2px;bottom:-2px;_bottom:-4px;display:none;}
+.bankList li a:hover,.bankList li a.aOn,.phonePay li a:hover,.phonePay li a.aOn{border:2px solid #fe3b06;}
+.bankList li a.aOn var,.phonePay li a.aOn var{display:block;}
+.bankList p{margin-bottom:0;border-top:1px dashed #dbdbdb;}
+.bankList p a{width:120px;height:30px;line-height:30px;padding-right:15px;display:block;color:#1999e7;/*background:url(../images/payIco.jpg) no-repeat 75px -107px;*/}
+
+/* 按钮 */
+.i1{width:13px;height:13px;margin:8px 5px 0;float:left;}
+.i2{width:202px;height:28px;line-height:28px;padding:0 5px;font-family:Arial, sans-serif; font-size:14px;border:1px solid #d1d1d1;color:#a5a5a5;background-color:#fff;float:left;/* outline:none; */}
+.i0{width:80px;}
+.iOn{color:#666;border:1px solid #00aeff;}
+.ii{color:#666;}
+.iErr{border:1px solid #F00;color:#F00;}
+
+
+.choiceBox{height:30px;margin-bottom:25px; position:relative; z-index:6;}
+.choiceT{height:30px;}
+.choiceT strong{width:100px;height:30px;line-height:30px; text-align:right;font-size:14px;color:#5c5c5c;float:left;}
+.choiceT h4{height:32px;float:left;}
+.choiceT h4 a,.payRmb dd a.payA{width:180px;height:30px;line-height:30px;margin-right:10px;padding:0 30px 0 4px; text-align:center;font-weight:bold;color:#515151;background:url(../images/pay.jpg) no-repeat 0 0;float:left;}
+
+
+.choiceT h4 a.gSer{margin-right:0;}
+.choiceT h4 a:hover,.payRmb dd a.payA:hover,.choiceT h4 a.aOver,.choiceT h4 a.aOver:hover,.payRmb dd a.aOver,.payRmb dd a.aOver:hover{color:#fe3b06;background:url(../images/pay.jpg) no-repeat 0 -30px;}
+.choiceT h4 a.serDis:hover{color:#515151;background:url(../images/pay.jpg) no-repeat 0 0; cursor:default;}
+.choiceT h4 a.aOn,.choiceT h4 a.aOn:hover,.payRmb dd a.aOn,.payRmb dd a.aOn:hover{color:#fe3b06;background:url(../images/pay.jpg) no-repeat 0 -613px;}
+.payRmb dd .selectShow .payA,.payRmb dd .selectShow .payA:hover{color:#fe3b06;background:url(../images/pay.jpg) no-repeat 0 -30px;}
+.quan dd a.payA:hover{color:#FF0;}
+
+
+.gDiv{width:550px;height:20px;line-height:20px;padding:5px 0 5px 20px;border:1px solid #fc5629; color:#5c5c5c;background-color:#ffefeb;position:absolute;left:100px;top:0;}
+.gDiv em{font-weight:bold;}
+.gDiv a{color:#1999e7;margin-left:50px; }
+.gDiv a:hover{color:#1999e7;text-decoration:underline;}
+
+
+.payBtn{height:39px;margin-bottom:40px;}
+.payBtn a,.payBtn button,p.cardBtn a, .payBtn .submiBtn{width:192px;height:39px;line-height:39px; text-align:center;margin-left:100px;font-size:17px;color:#fff;background: url("../images/pay.jpg") no-repeat 0  -185px;display: block;border: 0 none;}
+.payBtn a:hover,.payBtn button.bOn,p.cardBtn a:hover{color:#fff;background: url("../images/pay.jpg") no-repeat 0  -224px;}
+
+.phonePay{height:32px;}
+.gPay span,.gPay strong,.gPay i,.gPay em{float:left;}
+.gPay span,.gPay i{font-size:13px;}
+.gPay strong{font-size:14px;color:#f60;}
+.gPay i{margin:0 20px 0 5px}
+.gPay em{color:#f60;;}
+
+.payRmb{ position:relative;}
+.payRmb{z-index:3;}
+.payRmb dd a.payA{margin-right:0;}
+.paySel{height:30px;}
+.payRmb .gPay{margin:15px 0 5px 0;}
+.payRmb .amountSelect{float:left;}
+
+.qyCard{}
+.cardDiv p{margin-bottom:15px;}
+.cardDiv p label{width:80px;}
+.cardDiv a{width:60px;height:20px;line-height:20px;margin:5px 0 0 5px;color:#1495E6;float:left;}
+.cardDiv a:hover{color:#F60; text-decoration:none;}
+.cd{height:90px;/* margin-bottom:12px; */background:url(../images/cd2.gif) no-repeat 0 bottom;}
+
+
+.choiceDiv,.qBox{position:absolute;left:70px;top:30px; z-index:99;}
+.qBox{left:100px;}
+.choiceDiv{width:490px;border:4px solid #fe3b06;background-color:#fff;}
+.choiceGame,.choiceSer,.qBox{width:490px;}
+
+.hasPlay h5{height:26px;background-color:#fe3b06; position:relative;}
+.gList,.allSer,.qWrap{}
+.gTab,.gTab2{height:24px;padding:4px 0 0 5px;background-color:#fe3b06; _overflow:hidden; position:relative;}
+.gTab a,.gTab2 a{width:62px;height:24px;line-height:24px; margin-right:1px;text-align:center;font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:12px;color:#fff;background-color:#47ade9;float:left;_display:inline;}
+.gTab a:hover,.gTab a.aOn,.gTab2 a:hover,.gTab2 a.aOn{color:#fe3b06;background-color:#fff;}
+
+.bigTab{height:32px;padding:15px 0 15px 10px;}
+
+
+.si{width:98px;height:19px;background-color:#fff; position:absolute;right:0;bottom:3px;}
+.si input{width:73px;height:17px;line-height:17px;font-size:12px;padding:0 20px 0 2px;border:1px solid #fff;background:url(../images/blank.gif) no-repeat;position:absolute;right:0;top:0; z-index:2; overflow:hidden;}
+.si span{width:72px;height:19px;line-height:19px;padding:0 2px 0 5px;display:block;color:#a5a5a5; font-weight:normal; font-family: "\5b8b\4f53"; position:absolute;left:0;bottom:0;_bottom:-2px;z-index:1;}
+.si a{width:18px;height:19px; text-indent:-999em;overflow:hidden;background:url(../images/si.gif) no-repeat; position:absolute;right:0;top:0; z-index:3;}
+.si a.aClose{background:url(../images/payIco.jpg) no-repeat 0 -216px;}
+
+#allList,#hasList{width:490px;padding-top:10px;position:relative;}
+.listCon {height: 240px;overflow: hidden; position: relative;}
+.noInfo{line-height:30px;margin:0 auto;padding-top:70px; text-align:center;}
+.noInfo strong{color:#fe3b06;}
+.noInfo a{padding:3px 8px;margin-left:5px;color:#fff;background-color:#fe3b06;}
+.noInfo a:hover{color:#fff;background-color:#47ade9;}
+
+.gList ul{position:absolute;left:0;}
+.gList ul li{width:80px;height:110px;margin:10px 0 0 13px;float:left;_display:inline;}
+.gList ul li a{width:80px;height:110px;display:block; cursor:pointer;}
+.gList ul li a img{width:74px;height:74px;padding:2px;border:1px solid #e8e8e8;}
+.gList ul li a span{width:80px;height:30px;line-height:30px;text-align:center; color:#5c5c5c;font-size:13px;display:block;}
+.gList ul li a:hover img{width:74px;height:74px;padding:0;border:3px solid #65c3fa;}
+.gList ul li a:hover span{color:#65c3fa;}
+
+.scrollBar{ width:14px; height:240px; position:absolute; right:4px; top:5px;}
+.scrollBar .barM{ width:14px; height:240px; position:absolute; top:0px; left:0px;}
+.scrollBar .bar{ width:14px; height:178px; background:url(../images/bar.gif) no-repeat;position:absolute; top:0px; left:0px; cursor:pointer;}
+.scrollBar .barOn{background:url(../images/barOn.gif) no-repeat;}
+.hasPlay h5 span.hsp,.hasSer h5 span.hsp{width:250px;height:26px;line-height:26px;padding-left:10px; color:#fff;}
+.allSer{width:490px;position:relative;}
+.allSerList{padding-top:10px;}
+.serCon{height:240px;position:relative; overflow:hidden;}
+.serList{/*  position:absolute; */left:0;}
+.serList li{width:70px;height:18px;padding:5px 0 5px 10px;margin-left:15px;background:url(../images/point.gif) no-repeat 0 center;vertical-align:top; overflow:hidden;float:left;_display:inline;}
+
+.gs-sel-middle {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+.gs-sel-lastplay {
+    width: 80px;
+    height: 25px;
+    padding: 10px;
+    float: left;
+}
+.gs-sel-tab-btn {
+    width: 42px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+    font-size: 14px;
+}
+.last-played {
+    width: 70px;
+    overflow: hidden;
+}
+.current-tab {
+    color: #fff;
+    background: #1791f0;
+}
+.gs-sel-bottom {
+    width: 100%;
+    float: left;
+    background: #fff;
+    overflow: visible;
+}
+/*===============*/
+ #allGameList li{display:none;}
+#allGameList .gameItemAllow{display:none;}
+#allGameList .gameItemAllowShow{display:block;}
+#allServerList li{display:none;}
+#allServerList .serverItemAllow{display:none;}
+#allServerList .serverItemAllowShow{display:block;}
+.allSerList{position:relative;}

@@ -1,0 +1,17 @@
+﻿html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,hr,p,blockquote,pre,a,abbr,acronym,del,cite,address,small,sub,sup,b,u,i,center,font,em,strong,dl,dt,dd,ul,ol,li,form,fieldset,legend,table,caption,thead,tbody,tfoot,tr,th,td{margin:0;padding:0;outline:none;}
+html,body{font:normal 12px/1.5 'arial','simsun','宋体';color:#000;}ul,ol{list-style-type:none}a{text-decoration:none;blr:expression(this.onFocus=this.blur());color:#000;}
+a:hover{text-decoration:none;color:#FFA500;} a:focus{outline:none;}li:focus{outline:none;}fieldset,img{border:0}q,blockquote{quotes:"" ""}q:before,q:after,blockquote:before,blockquote:after{content:""}
+del{text-decoration:line-through}ins{text-decoration:underline}sup{vertical-align:super;}sub{vertical-align:sub;}cite,em,dfn{font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;}caption,th,td{font-weight:normal;text-align:left;}input,textarea,select,button{font-size:100%;font-family:inherit;margin:0;padding:0;}label,button{cursor:pointer}
+textarea{white-space:pre;resize:none;border:1px solid #ececec;}button,input,select,textarea{font-size:100%;}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{margin:0;padding:0;display:block;border:0;font-size:100%;}
+img{border:none;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+table,th,td{border-collapse:collapse;}
+body{background:#fff;position: relative;}
+
+/*微软雅黑*/
+body{font-family:Arial,'Microsoft YaHei','微软雅黑','SimSun';font-family:'微软雅黑';background:#fff url(../images/bg.jpg) no-repeat center 0px; }
+.clear{clear: both;width: 100%;font-size: 0px;height:0px;background:none;border:none;_zoom:1;}
+.container{width:1168px;margin:0 auto;position:relative;}
+

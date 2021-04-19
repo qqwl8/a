@@ -1,0 +1,44 @@
+/* Write your styles */
+
+.header {
+      text-align: center;
+}
+.header h1 {
+      font-size: 200%;
+      color: #333;
+      margin-top: 30px;
+}
+.header p {
+      font-size: 14px;
+}
+	
+.user_gift .gift-name {
+    font-size: 18px;
+    color: #ff5700;
+    font-weight: bold;
+}
+.user_gift .gift-server {
+    color: red;
+    font-size: 12px;
+    font-weight: 400;
+}
+.lists {
+    display: block;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #555;
+    background-color: #f8f8f8;
+    border: 1px solid #dedede;
+    border-radius: 0;
+}
+.lists span {
+  padding-left:10px;
+}
+
+.orange {
+    color: #ff892a!important;
+}

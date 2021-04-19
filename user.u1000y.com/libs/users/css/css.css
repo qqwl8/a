@@ -1,0 +1,1129 @@
+﻿html,body {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: "Microsoft Yahei";
+    font-size: 12px;
+    line-height: 18px
+}
+
+.login-center {
+    background: url(../img/sflogin/login-c.png) 0 0 no-repeat
+}
+
+.login-bg {
+    background: url(../img/sflogin/login-bg.png) center 95px no-repeat;
+    width: 100%;
+    height: auto
+}
+
+.reg_main {
+    width: 919px
+}
+
+.login_main {
+    width: 919px;
+    height: 500px;
+    border-bottom: 0;
+    position: relative
+}
+
+.loginbg {
+    width: 359px;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -220px
+}
+
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+.clearfix {
+    zoom: 1
+}
+
+#zcbox {
+    margin: 5px;
+    overflow: hidden;
+    height: auto;
+    background-color: #fff
+}
+
+.tabs {
+    width: 100%
+}
+
+.tabs li {
+    width: 122px;
+    float: left;
+    display: inline;
+    height: 40px;
+    margin: 10px 26px 0 26px;
+    line-height: 36px;
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    color: #000;
+    cursor: pointer
+}
+
+.tabs li.active {
+    border-bottom: 4px solid #038cf0;
+    font-weight: bold
+}
+
+.cons {
+    position: relative
+}
+
+.loginBox {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    -padding: 30px 0 0
+}
+
+.codeArea,.nameArea,.pwdArea,.yzimgArea {
+    width: 298px;
+    height: 40px;
+    position: relative;
+    margin: 0 0 20px;
+    border: solid 1px #ccc
+}
+
+.yzimgArea {
+    width: 210px
+}
+
+.inputTip,.inputTipFocus {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    color: #aaa;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: text
+}
+
+.inputTipFocus {
+    color: #ddd
+}
+
+.input {
+    width: 234px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    background: 0;
+    position: relative;
+    display: inline-block;
+    float: left;
+    z-index: 10
+}
+
+.getCode:focus,.input:focus {
+    outline: 0
+}
+
+.focus {
+    border: solid 1px #48a6ff
+}
+
+.error {
+    border: solid 1px #fa5b5b
+}
+
+.icoClean {
+    background: url(../img/sflogin/ico_close.png) no-repeat;
+    width: 14px;
+    height: 14px;
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    margin-top: -7px;
+    cursor: pointer
+}
+
+.btn-default {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    font-size: 18px;
+    border: 0;
+    margin-top: 5px;
+    background: #038cf0;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Microsoft Yahei";
+    position: relative
+}
+
+.loginBox .loading {
+    background: #f90
+}
+
+.loginBox .getCode {
+    width: 120px;
+    font-size: 14px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 3px 3px 0
+}
+
+.codeArea .input {
+    width: 100px
+}
+
+.codeArea .enterTip {
+    width: 120px
+}
+
+.codeArea img.verifCode {
+    height: 40px;
+    width: 90px;
+    display: inline-block;
+    float: left;
+    margin-left: 22px
+}
+
+.codeArea a.changeCode {
+    color: #36F;
+    display: inline-block;
+    float: left;
+    line-height: 40px;
+    font-size: 14px;
+    margin-left: 2px
+}
+
+.codeArea a:hover.changeCode {
+    color: #39F;
+    text-decoration: underline
+}
+
+.errorTip {
+    line-height: 25px;
+    color: #ff5b5b;
+    font-size: 12px;
+    height: 25px;
+    padding: 5px 0
+}
+
+.icoTip {
+    background: url(../img/sflogin/ico-tip.png) 0 0 no-repeat;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    float: left;
+    margin: 5px 5px 0 0
+}
+
+.errorM {
+    float: left;
+    display: inline-block
+}
+
+.icoError {
+    background: url(../img/sflogin/ico.jpg) 0 0 no-repeat;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    margin-top: -7px;
+    cursor: pointer
+}
+
+.codeArea .icoError {
+    right: 139px
+}
+
+.icoErrorImg {
+    right: 95px
+}
+
+.yabox {
+    width: 80px;
+    position: absolute;
+    top: -1px;
+    left: 217px;
+    background: #fff;
+    height: 40px;
+    z-index: 1000000;
+    text-align: center;
+    border: 1px solid #dedede
+}
+
+.high-index {
+    z-index: 9
+}
+
+.yabox img {
+    line-height: 0;
+    padding: 0;
+    height: 40px;
+    width: 80px
+}
+
+.vcode_img {
+    padding-top: 5px;
+    display: inline-block;
+    cursor: pointer
+}
+
+.imgYzInput {
+    width: 168px
+}
+
+.icoCode,.icoName,.icoPwd,.icoImg {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    float: left
+}
+
+.icoName {
+    background: url(../img/sflogin/ico_name.png) center center no-repeat
+}
+
+.icoPwd {
+    background: url(../img/sflogin/ico_pwd.png) center center no-repeat
+}
+
+.icoCode {
+    background: url(../img/sflogin/ico_code.png) center center no-repeat
+}
+
+.icoImg {
+    background: url(../img/sflogin/ico_img.png) center center no-repeat
+}
+
+.enterTip {
+    width: 234px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    font-size: 14px;
+    color: #999;
+    z-index: 3
+}
+
+.nav-link {
+    padding: 15px 0 0 0;
+    font-family: "Microsoft Yahei";
+    font-size: 12px
+}
+
+.nav-link a {
+    font-family: "Microsoft Yahei";
+    font-size: 12px
+}
+
+.nav-link .link-left {
+    float: left
+}
+
+.nav-link .link-right {
+    float: right
+}
+
+.tips-top {
+    margin-top: 20px;
+}
+
+.bound-wx .wx-img {
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.wx-tips {
+    text-align: center;
+    font: normal 14px/26px "Microsoft Yahei";
+    margin-bottom: 30px
+}
+
+.wx-img {
+    height: 151px;
+    width: 151px;
+    margin: 0 auto;
+    padding: 11px;
+    margin-top: 30px;
+    background: url(../img/sflogin/wxbg.jpg) center no-repeat
+}
+
+.wx-shade {
+    display: block;
+    width: 167px;
+    height: 167px;
+    background-color: #000;
+    opacity: .75;
+    filter: alpha(opacity=75);
+    color: #fff;
+    position: absolute;
+    top: 3px;
+    left: 91px;
+    font-size: 16px;
+    text-align: center
+}
+
+.wx-shade p {
+    margin-top: 66px
+}
+
+.wx-img img {
+    width: 100%;
+    height: auto
+}
+
+.wx-tips-win {
+    text-align: center;
+    margin-top: 20px;
+    display: none
+}
+
+.wx-tips-win i {
+    background: url(../img/sflogin/dd.png) 0 0 no-repeat;
+    width: 22px;
+    height: 22px;
+    display: inline-block
+}
+
+.wx-tips-win span {
+    font-size: 14px;
+    margin-bottom: 5px;
+    vertical-align: top
+}
+
+.dynamic-password {
+    margin: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 349px;
+    height: 310px;
+    text-align: center
+}
+
+.dynamic-password .username,.dynamic-password .password {
+    font-size: 14px;
+    text-align: left
+}
+
+.dynamic-password .username {
+    margin-left: 28px
+}
+
+.dynamic-password .username span {
+    margin-left: 8px
+}
+
+.dynamic-password input {
+    width: 150px;
+    height: 30px;
+    padding-left: 5px
+}
+
+.dynamic-password .password {
+    margin-top: 15px
+}
+
+.dynamic-password .btn {
+    margin-top: 40px;
+    width: 310px;
+    margin-left: 20px
+}
+
+.dynamic-password .errorTip {
+    margin-left: 76px;
+    margin-top: 8px
+}
+
+.dynamic-password h3 {
+    padding-top: 30px
+}
+
+.input-box {
+    margin: 50px 0 0 50px;
+    height: auto
+}
+
+#zcbox:after,.tabs:after,.cons:after,.line:after,.cgbox:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+.dotting {
+    width: 27px;
+    overflow: hidden;
+    height: 2px;
+    line-height: 2px;
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 172px
+}
+
+.dotting i {
+    width: 2px;
+    height: 2px;
+    margin: 0 3px;
+    background: #fff;
+    display: inline-block;
+    float: left
+}
+
+.loading .dotting {
+    display: block;
+    -webkit-animation: fadeIn 1s ease-in-out infinite;
+    -moz-animation: fadeIn 1s ease-in-out infinite;
+    animation: fadeIn 1s ease-in-out infinite
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        width: 0
+    }
+
+    30% {
+        width: 9px
+    }
+
+    60% {
+        width: 18px
+    }
+
+    90% {
+        width: 27px
+    }
+
+    100% {
+        width: 27px
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        width: 0
+    }
+
+    30% {
+        width: 9px
+    }
+
+    60% {
+        width: 18px
+    }
+
+    90% {
+        width: 27px
+    }
+
+    100% {
+        width: 27px
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        width: 0
+    }
+
+    30% {
+        width: 9px
+    }
+
+    60% {
+        width: 18px
+    }
+
+    90% {
+        width: 27px
+    }
+
+    100% {
+        width: 27px
+    }
+}
+
+.thirdparty-login {
+    width: 352px;
+    height: 54px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 54px;
+    margin-top: 16px;
+    border-top: 1px solid #efefef
+}
+
+.thirdparty-login a {
+    height: 22px;
+    line-height: 22px;
+/*     width: 22px; */
+    display: inline-block;
+/*     background: url(../img/sflogin/share_icon.jpg); */
+    float: left
+}
+
+.thirdparty-login span {
+    float: left;
+    font-size: 12px;
+    color: #666;
+    margin-right: 5px
+}
+
+.thirdparty-login .bds_weixin {
+    background-position: 0 0
+}
+
+.thirdparty-login a {
+    margin: 16px 10px 0 0
+}
+
+.thirdparty-login .bds_tsina {
+    background-position: -44px 0
+}
+
+.thirdparty-login .bds_sqq {
+    background-position: -66px 0
+}
+
+.thirdparty-login-main {
+    margin-left: 26px
+}
+
+.bx {
+    width: 920px;
+    margin: 0 auto
+}
+
+.new-binding-title {
+    width: 100%;
+    height: 100px;
+    background-color: #fff
+}
+
+.logotit {
+    position: relative
+}
+
+.logotit img {
+    margin-top: 24px
+}
+
+.logotit span {
+    font-size: 20px;
+    position: absolute;
+    top: 43px;
+    font-weight: 700;
+    color: #333
+}
+
+.new-binding-main {
+    background-color: #f5f6f7;
+    overflow: hidden
+}
+
+.binding-box1 {
+    width: 100%;
+    height: 260px;
+    background-color: #fff;
+    margin-top: 40px
+}
+
+.binding-box {
+    width: 100%;
+    height: 400px;
+    background-color: #fff
+}
+
+.binding-tabs {
+    border-bottom: 1px solid #efefef
+}
+
+.new-binding-main .tabs {
+    height: 53px;
+    padding-top: 20px
+}
+
+.new-binding-main .tabs a {
+    padding-bottom: 10px;
+    width: 200px;
+    display: inline-block
+}
+
+.new-binding-main .tabs a:hover {
+    text-decoration: none
+}
+
+.new-binding-main .tabs li {
+    width: 200px;
+    margin-left: 164px;
+    line-height: 40px
+}
+
+.new-binding-personal {
+    width: 100%;
+    height: 186px;
+    position: relative
+}
+
+.head-img img {
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    left: 238px;
+    top: 60px;
+    border: 2px solid #ffd3b5;
+    border-radius: 50%
+}
+
+.binding-user {
+    text-align: left;
+    position: absolute;
+    top: 75px;
+    left: 350px;
+    line-height: 26px
+}
+
+.new-binding-personal span {
+    font-size: 18px;
+    font-weight: 600
+}
+
+.tabs a.active {
+    border-bottom: 4px solid #038cf0;
+    font-weight: bold
+}
+
+.binding-login-left {
+    width: 300px;
+    padding: 25px 0 0 110px;
+    float: left
+}
+
+.binding-login-left .btn-default {
+    width: 300px
+}
+
+.btn-default:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.binding-login-right {
+    width: 390px;
+    height: 320px;
+    float: left;
+    border-left: 1px solid #efefef;
+    margin-left: 90px
+}
+
+.new-binding-login .wx-shade {
+    left: 111px
+}
+
+.foot {
+    width: 100%;
+    height: 134px;
+    color: #999;
+    padding-top: 20px;
+    clear: both;
+    background-color: #fff;
+    margin-top: 40px
+}
+
+.foot .fcenter {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-algin: middle;
+    padding: 20px 0 0
+}
+
+.foot .flogo {
+    display: inline-block;
+    background: url(http://stc.kongzhong.com/kongzhong/img/sflogin/2016/f_logo.png) no-repeat;
+    width: 108px;
+    height: 45px
+}
+
+.foot img {
+    margin: 0 10px
+}
+
+.foot .fcenter span {
+    height: 20px;
+    line-height: 20px;
+    vertical-align: top;
+    padding-top: 12px;
+    display: inline-block
+}
+
+.foot .ftext {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+    width: 100%
+}
+
+.foot .ftext a {
+    color: #999
+}
+
+.foot .ftext a:hover {
+    color: #333
+}
+
+.foot .ftext span {
+    margin: 0 10px;
+    width: 0;
+    height: 14px;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid#999;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.new-binding-number {
+    text-align: center
+}
+
+.new-binding-number iframe {
+    width: 650px;
+    height: 470px
+}
+
+.sico3,.sico5,.sico6 {
+    width: 60px;
+    height: 60px;
+    background: url(../img/sflogin/binding-icon.png) no-repeat;
+    position: absolute;
+    top: 4px;
+    left: 0
+}
+
+.sico5 {
+    background-position: -60px 0
+}
+
+.sico6 {
+    background-position: -120px 0
+}
+
+.sico3 {
+    background-position: 0 0
+}
+
+.sphone_cen dl {
+    padding: 8px 0 40px 90px;
+}
+.sphone_cen .btn_3,.sphone_cen .btn_13 {margin-top: 12px;}
+.bound {
+    display: inline-block;
+    background: url(../img/sflogin/ico-tips.png) 0 0 no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.not-bound {
+    display: inline-block;
+    background: url(../img/sflogin/ico_tip.png) 0 0 no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.sphone_cen dl dd.f14 {
+    font-size: 12px;
+    color: #666
+}
+
+.fade {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .75;
+    filter: alpha(opacity=75);
+    top: 0;
+    z-index: 1100
+}
+
+.unbind-windows {
+    background: url(../img/sflogin/popup_bg.png) repeat;
+    padding: 10px;
+    display: block;
+    width: 620px;
+    height: auto;
+    font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    margin-left: -310px;
+    z-index: 1101
+}
+
+.unbind-windows a:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.popcon-btn .grey:hover {
+    color: #a6a6a6
+}
+
+.pop-box-con {
+    position: relative;
+    background: #fff;
+    zoom: 1;
+}
+
+.pop-box-con h2 {
+    font-weight: normal;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    padding: 10px 0 10px 0;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+    color: #fff;
+    border-top: 1px solid #ffc759;
+    background: #ff9325;
+    background: -moz-linear-gradient(top,#ffb31c,#ff9325);
+    background: -webkit-gradient(linear,top,from(#ffb31c),to(#ff9325));
+    background: -webkit-linear-gradient(top,#ffb31c,#ff9325);
+    background: -o-linear-gradient(top,#ffb31c,#ff9325)
+}
+
+.pop-box-con h2 a.pop_close {
+    position: absolute;
+    right: 14px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/sflogin/close.gif) no-repeat;
+    display: inline;
+    overflow: hidden
+}
+
+.unbind-title {
+    text-align: center;
+    margin: 22px 0
+}
+
+.popcon-item p {
+    margin: 10px 0 0 32px;
+    font-size: 14px;
+}
+
+.popcon-item .popcon-number {
+    color: #038cf0;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.popcon-btn {
+    text-align: center;
+    margin: 60px 0
+}
+
+.popcon-btn a {
+    width: 114px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px
+}
+
+.unbind1 .orange {
+    margin-right: 60px
+}
+
+.orange {
+    background: #ff9325;
+    background: -moz-linear-gradient(top,#ffb31c,#ff9325);
+    background: -webkit-gradient(linear,top,from(#ffb31c),to(#ff9325));
+    background: -webkit-linear-gradient(top,#ffb31c,#ff9325);
+    background: -o-linear-gradient(top,#ffb31c,#ff9325);
+    color: #fff;
+    border: 1px solid #ffc759
+}
+
+.grey {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #a6a6a6
+}
+
+.bind-windows {
+    width: 500px;
+    margin-left: -250px
+}
+
+.tips-windows,.status-windows {
+    width: 480px;
+    height: 322px;
+    margin-left: -240px
+}
+
+.tips-windows .popcon-item {
+    text-align: center;
+    margin-top: 88px
+}
+
+.tips-windows .popcon-btn {
+    margin-top: 70px
+}
+
+.tips-windows .popcon-btn a {
+    width: 140px
+}
+
+.status-windows h3 {
+    padding-top: 29px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin: 0 auto
+}
+
+.status-windows .wtwo {
+    width: 256px
+}
+
+.status-windows .getVali {
+    top: 3px;
+    left: 120px
+}
+
+.status-windows .wone {
+    width: 129px
+}
+
+.status-windows .btn_10 {
+    margin-left: 56px
+}
+
+.enroll-win {
+    width: 920px;
+    height: 660px;
+    background-color: #fff
+}
+
+.regBox span {
+    line-height: 36px;
+    float: left;
+    width: 80px
+}
+
+.register {
+    width: 570px;
+    margin: 20px auto;
+    overflow: hidden;
+    height: auto
+}
+
+.email {
+    text-align: center;
+    padding-top: 100px
+}
+
+.email p {
+    text-align: left
+}
+
+.number {
+    margin-top: 44px;
+    font-size: 14px
+}
+
+.email h1 {
+    margin: 20px 0
+}
+
+.check {
+    font-size: 14px;
+    display: inline-block;
+    width: 288px;
+    height: 40px;
+    background-color: #48a6ff;
+    color: #fff;
+    line-height: 40px;
+    border-radius: 5px;
+    margin: 30px 0
+}
+
+.check:hover {
+    color: #fff
+}
+
+.email-footer a {
+    color: #48a6ff
+}
+
+.email-footer p {
+    line-height: 28px;
+    font-size: 12px
+}
+
+.email-footer {
+    border-top: 1px solid #e0e0e0;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-top: 15px
+}
+
+input:-webkit-autofill,textarea:-webkit-autofill,select:-webkit-autofill {
+    background-color: #fff
+}
+/*绑定弹层*/
+.bind-good {
+    height: 322px;
+    text-align: center;
+}
+
+.bind-good .popcon-item {
+    margin-top: 88px;
+}
+
+.bind-good .popcon-btn {
+    margin-top: 55px;
+}
+.unbound-box {margin-top: 70px;}
+.tips-h100 {height: 100%;}
+.tips-h100 .popcon-item p {margin: 0;}
+.safety-phone p{text-align: center;margin: 110px 0 0 0;font-size: 14px;}
+.safety-phone .popcon-btn {margin: 80px 0;}
