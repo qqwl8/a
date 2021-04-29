@@ -1,0 +1,774 @@
+﻿html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,hr,p,blockquote,pre,a,abbr,acronym,del,cite,address,small,sub,sup,b,u,i,center,font,em,strong,dl,dt,dd,ul,ol,li,form,fieldset,legend,table,caption,thead,tbody,tfoot,tr,th,td{margin:0;padding:0;outline:none;}
+html,body{font:normal 12px/1.5 'arial','simsun','宋体';color:#000;}ul,ol{list-style-type:none}a{text-decoration:none;blr:expression(this.onFocus=this.blur());color:#000;}
+a:hover{text-decoration:none;color:#405361;} a:focus{outline:none;}li:focus{outline:none;}fieldset,img{border:0}q,blockquote{quotes:"" ""}q:before,q:after,blockquote:before,blockquote:after{content:""}
+del{text-decoration:line-through}ins{text-decoration:underline}sup{vertical-align:super;}sub{vertical-align:sub;}cite,em,dfn{font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;}caption,th,td{font-weight:normal;text-align:left;}input,textarea,select,button{font-size:100%;font-family:inherit;margin:0;padding:0;}label,button{cursor:pointer}
+textarea{white-space:pre;resize:none;border:1px solid #ececec;}button,input,select,textarea{font-size:100%;}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{margin:0;padding:0;display:block;border:0;font-size:100%;}
+img{border:none;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+table,th,td{border-collapse:collapse;}
+body{background:#fff;position: relative;}
+
+/*微软雅黑*/
+body{font-family:Arial,'Microsoft YaHei','微软雅黑','SimSun';font-family:'微软雅黑';background:#e9f2fb url(../images/bg.jpg) no-repeat center 0; }
+
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;width: 100%;font-size: 0px;height:0px;background:none;border:none;_zoom:1;}
+
+.container{width:1000px;margin:0 auto;position:relative;}
+
+header{
+	width: 1278px;
+	height: 108px;
+	margin: 0 auto;
+	display: flex;
+	font-size: 18px;
+	align-items:center ;
+}
+header div{
+	flex:1;
+	text-align: center;
+}
+header div img{
+	width: 100%;
+}
+section{
+	width: 1278px;
+	margin: 0 auto;
+	margin-top: 430px;
+	overflow: hidden;
+}
+
+
+.major {
+  width: 243px;
+  height: 351px;
+  float: left;
+  overflow: hidden;
+  background: url(../images/qidian_14.png) no-repeat;
+}
+
+.major ul{
+	width: 145px;
+	height: 279px;
+	margin-left: 40px;
+	margin-top: 41px;
+	overflow: hidden;
+}
+
+.major ul li{
+	width: 145px;
+	height: 92px;
+	margin-bottom: 1px;
+	overflow: hidden;
+}
+.major ul li a{
+	width: 145px;
+	height: 92px;
+	display: block;
+	overflow: hidden;
+}
+
+.major ul li.zczh a{
+	background: url(../images/qidian_17_01.png) no-repeat 0 0;
+}
+.major ul li.zczh a:hover{
+	background: url(../images/qidian_17_01.png) no-repeat 0 -92px;
+}
+.major ul li.xzyx a{
+	background: url(../images/qidian_17_03.png) no-repeat 0 0;
+}
+.major ul li.xzyx a:hover{
+	background: url(../images/qidian_17_03.png) no-repeat 0 -92px;
+}
+.major ul li.yxcz a{
+	background: url(../images/qidian_17_05.png) no-repeat 0 0;
+}
+.major ul li.yxcz a:hover{
+	background: url(../images/qidian_17_05.png) no-repeat 0 -92px;
+}
+
+
+
+.news {
+  width: 475px;
+  height: 351px;
+  float: left;
+  background: #fff;
+
+}
+.news .box{
+  height: 345px;
+  background: #fff;
+
+}
+
+.news .hd{
+	width: 100%;
+	height: 48px; 
+	font-size: 16px;
+	line-height: 48px;
+	border-bottom: 2px solid #0e7a8a;
+}
+.news .hd ul{
+	padding: 0 20px; 
+}
+
+.news .hd ul li{
+	width: 70px;
+	height: 48px; 
+	text-align: center;
+	cursor:pointer ;
+	float: left;
+}
+
+
+.news .hd ul li.on{
+	box-sizing:border-box;
+	border-bottom: 2px solid #0e7a8a;
+	color: #0e7a8a;
+}
+
+.news .bd{
+	width:475px;
+	height: 295px;
+}
+.news .bd ul{
+	padding: 0 20px; 
+	width:435px;
+	height: 275px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.news .bd ul li{
+	height: 43px;
+	border-bottom: 1px dashed #b2d0d8;
+}
+.news .bd ul li a{
+	float: left;
+	position: relative;
+}
+.news .bd ul li .dise{
+	width: 45px;
+	height:  23px;
+	display: block;
+	float: left;
+	background: url(../images/qidian_10.png) no-repeat;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	top: 12px;
+	margin-right: 5px;
+}
+
+.news .bd ul li a .wen{
+	width: 300px;
+	line-height: 43px;
+	display:block;
+	float: left;
+	margin-right: 5px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.news .bd ul li a .time{
+	width: 80px;
+	line-height: 43px;
+	display:block;	
+	float: right;
+	text-align: center;
+}
+
+
+.fourimg {
+  width: 544px;
+  height: 351px;
+  float: left;
+  margin-left: 15px;
+}
+.fourimg ul{
+  width: 544px;
+  height: 345px;
+}
+.fourimg ul li{
+  width: 265px;
+  height: 165px;
+  float: left;
+  background: url(../images/qidian_45.png);
+}
+
+.fourimg ul li:nth-child(2),
+.fourimg ul li:nth-child(4){
+	margin-left: 14px;
+}
+.fourimg ul li:nth-child(1),
+.fourimg ul li:nth-child(2){
+	margin-bottom: 20px;
+}
+.fourimg ul li a{
+  width: 93px;
+  height: 120px;
+  display: block;
+  margin: 22px auto;
+}
+.fourimg ul li a span{
+  width: 93px;
+  height: 93px;
+  display: block;
+}
+.fourimg ul li a span.yxbl{
+  background: url(../images/qidian_34.png) no-repeat -9px -9px;
+}
+
+.fourimg ul li a span.zbhs{
+  background: url(../images/qidian_34.png) no-repeat -111px -9px;
+}
+
+.fourimg ul li a span.fbjs{
+  background: url(../images/qidian_34.png) no-repeat -9px -107px;
+}
+
+.fourimg ul li a span.zbsj{
+  background: url(../images/qidian_34.png) no-repeat -111px -107px;
+}
+
+.fourimg ul li a h3{
+  width: 93px;
+  height: 27px;
+  text-align: center;
+  line-height: 27px;
+  font-size: 16px;
+  color: #565656;
+
+}
+
+
+.fouricon {
+  width: 243px;
+  height: 293px;
+  float: left;
+  background: url(../images/qidian_24.png) no-repeat;
+}
+.fouricon ul{
+  width: 180px;
+  height: 180px;
+  margin: 50px 25px;
+}
+.fouricon ul li{
+  width: 90px;
+  height: 90px;
+  float: left;
+}
+.fouricon ul li a{
+  width: 90px;
+  height: 90px;
+  display: block;
+}
+.fouricon ul li a span{
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.fouricon ul li a span.zhzx{
+  background: url(../images/qidian_27.png) no-repeat -5px -5px;
+}
+.fouricon ul li a span.zlz{
+  background: url(../images/qidian_27.png) no-repeat -82px -5px;
+}
+.fouricon ul li a span.sqmb{
+  background: url(../images/qidian_27.png) no-repeat -5px -89px;
+}
+.fouricon ul li a span.kfzx{
+  background: url(../images/qidian_27.png) no-repeat -82px -89px;
+}
+
+.fouricon ul li a h3{
+  width: 70px;
+  height: 27px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 27px;
+  font-size: 16px;
+  color: #fff;
+}
+
+
+
+
+
+
+.intro {
+  width: 1035px;
+  height: 283px;
+  float: left;
+  margin-top: 10px;
+}
+.intro .box{
+	width: 1035px;
+	height: 266px;
+  	background: url(../images/qidian_03.png) no-repeat;
+	padding-top: 15px;
+}
+.intro .box dl{
+	width: 974px;
+	height: 41px;
+	margin: 0px auto;
+	border-bottom: 1px  dashed #b2d0d8;
+	padding-left: 10px;
+
+
+}
+
+.intro .box dl dt{
+	width: 105px;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 41px;
+	font-size: 14px;
+    font-weight: 600; 
+}
+.intro .box dl dd{
+	width: 105px;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 41px;
+	font-size: 14px;
+}
+.intro .box dt a{
+	color: #f78d12;
+}
+.intro .box .jbzl dd a{
+	color: #e5a598;
+}
+.intro .box .bjdt dd a{
+	color: #00ff83;
+}
+
+.intro .box .wpjs dd a{
+	color: #8290c5;
+}
+
+.intro .box .wgjs dd a{
+	color: #ed0e29;
+}
+
+.intro .box .zbjs dd a{
+	color: #db8ed9;
+}
+
+
+.intro .box .tsxl dd a{
+	color: #95a33e;
+}
+
+
+.contactus {
+   width: 243px;
+   height: 571px;
+   float: left;
+   background: url(../images/qidian_36.png) no-repeat;
+}
+.contactus ul{
+	width: 170px;
+	margin-left: 30px;
+	margin-top: 110px;
+}
+.contactus ul li{
+	line-height: 30px;
+	color: #fff;
+}
+
+
+
+.special {
+  width: 652px;
+  height: 553px;
+  float: left;
+  margin-top: 15px;
+}
+
+
+
+.special .box{
+	width: 652px;
+	height: 553px;
+  	background: #fff;
+}
+
+
+.special .hd ul{
+	width: 654px;
+
+}
+
+.special .hd ul li{
+	width: 163px;
+	height: 48px; 
+	float: left;
+	text-align: center;
+	cursor:pointer ;
+	line-height: 48px;
+	color: #fff;
+	background: #303030;
+	font-size: 16px;
+
+}
+.special .hd ul li.on{
+	box-sizing:border-box;
+	background: #0e7a8a;
+}
+.special .bd{
+	width:653px;
+	height: 507px;
+	overflow: hidden;	
+}
+
+.special .bd div{
+	width:653px;
+	height: 507px;
+	overflow: hidden;
+	background: red	
+}
+
+
+.screenshot {
+  width: 366px;
+  height: 555px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 17px;
+}
+.screenshot .box{
+	width: 366px;
+	height: 555px;
+}
+.screenshot .box .titlebox{
+	width: 366px;
+	height: 48px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 16px;
+	color: #fff;
+	background: url(../images/qidian_38.png) no-repeat;
+}
+.screenshot .box .ulbox{
+	width: 366px;
+	height: 486px;
+	padding: 12px 0;
+	position: relative;
+	background: url(../images/qidian_38ul.png) no-repeat;
+}
+.screenshot .box .ulbox li{
+	width: 325px;
+	height: 231px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+}
+.screenshot .box .ulbox h4{
+	width: 325px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	position: relative;
+	top: -35px;
+}
+.screenshot .box img{
+	width: auto;
+	height: 231px;
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	float: left;
+	padding: 20px 0;
+	background: #303030;
+	margin-top: 30px;
+}
+
+footer p{
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	background: #303030;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*二级页面*/
+section.erji{
+	width: 1278px;
+	margin: 0 auto;
+	margin-top: 430px;
+	
+/*	display: grid;
+	grid-template-columns:243px 1033px ;
+	grid-template-rows:351px 293px auto ;
+	grid-template-areas: 
+    "major zhuti"
+    "fouricon zhuti"
+    "contactus zhuti";*/
+}
+.zhuti {
+	width: 1033px;
+	float: right;
+}
+.zhuti .zhutishang{
+	width: 1033px;
+	height: 141px;
+	font-size: 26px;
+	line-height: 92px;
+	text-align: center;
+	color: #fff;
+	background: url(../images/erji02.png)no-repeat;
+}
+.zhuti .zhutimiddle{
+	width: 1033px;
+	min-height: 1000px;
+	background: url(../images/erji03.png)repeat-y;
+}
+
+.zhuti .zhutixia{
+	width: 1033px;
+	height: 38px;
+	background: url(../images/erji04.png)repeat-y;
+}
+.zhutimiddle .box{
+  width: 950px;
+  min-height: 920px;
+  margin: 0 auto;
+
+}
+
+.zhutimiddle .hd{
+	width: 100%;
+	height: 48px; 
+	font-size: 16px;
+	line-height: 48px;
+	border-bottom: 2px solid #0e7a8a;
+}
+.zhutimiddle .hd ul{
+	padding: 0 20px; 
+
+}
+
+.zhutimiddle .hd ul li{
+	width: 100px;
+	height: 48px; 
+	float: left;
+	text-align: center;
+	cursor:pointer ;
+
+}
+.zhutimiddle .hd ul li.on{
+	box-sizing:border-box;
+	border-bottom: 2px solid #0e7a8a;
+	color: #0e7a8a;
+}
+
+.zhutimiddle .bd{
+	width:950px;
+	height: 850px;
+	overflow: hidden;	
+	padding-bottom: 30px;
+}
+.zhutimiddle .bd ul{
+	padding: 0 20px; 
+	width:910px;
+	height: 850px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.zhutimiddle .bd ul li{
+	height: 43px;
+	border-bottom: 1px dashed #fff;
+}
+.zhutimiddle .bd ul li a{
+	float: left;
+	position: relative;
+}
+.zhutimiddle .bd ul li .dise{
+	width: 45px;
+	height:  23px;
+	display: block;
+	float: left;
+	background: url(../images/qidian_10.png) no-repeat;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	top: 12px;
+
+}
+
+.zhutimiddle .bd ul li a .wen{
+	width: 760px;
+	line-height: 43px;
+	display:block;
+	float: left;
+	margin-right: 10px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+
+}
+.zhutimiddle .bd ul li a .time{
+	width: 80px;
+	line-height: 43px;
+	display:block;	
+	float: right;
+	text-align: center;
+}
+
+.page{
+	width: 950px;
+	height: 40px;
+}
+
+.page .box{
+	width: 540px;
+	height: 40px;
+}
+
+.page .box a{
+	padding: 8px 12px;
+	display: block;
+	float: left;
+	font-family: "宋体";
+	font-size: 14px;
+	background: #405361;
+	color: #fff;
+	margin: 0 10px;
+}
+
+
+.zhutimiddle .box .ulbox{
+	width: 910px;
+	height: 850px;
+	padding: 12px 0;
+	position: relative;
+}
+.zhutimiddle .box .ulbox li{
+	width: 415px;
+	height: 235px;
+	margin: 0 20px;
+	margin-bottom: 30px;
+	float: left;
+	overflow: hidden;
+}
+.zhutimiddle .box .ulbox h4{
+	width: 415px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	position: relative;
+	top: -34px;
+	cursor: pointer;
+}
+
+.info_newer{padding:0 20px;overflow: hidden;padding-bottom:50px;}
+.info_newer h3{margin:20px 0;font-size:22px;font-weight: bold;color:#252525;}
+.info_newer table{float: left;}
+.info_newer table th,.info_newer table td{padding:6px;}
+.info_newer table th{font-size:18px;color:#c01000;font-weight: bold;font-family: "寰蒋闆呴粦";}
+.info_newer table td a{display: block;width: 76px;height:24px;line-height: 24px;font-size:14px;text-align: center;background-color: #252525;color:#fff;}
+.info_newer .line{float:left;margin:0 70px;width: 1px;height:110px;background-color: #e3e3e3;}
+.info_newer .info_nav{border:1px solid #dbdbdb;/* padding:6px 20px; */color:#959393;line-height:1.5em;overflow: hidden;}
+.info_newer .info_nav > ul {
+    margin-left: -2px;
+  margin-top: 15px;
+
+}
+.info_newer .info_nav .list-item {
+    height: 14px;
+    margin-bottom: 14px;
+    float: left;
+    border-left: 1px solid #808080;
+}
+
+.info_newer .info_nav .list-item a {
+    display: block;
+    padding: 0 10px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.wenp{
+	width: 910px;
+	height: auto;
+}
+
+.wenp h3{
+	width: 910px;
+	font-size:24px;
+	line-height: 40px;
+	text-align: center; 
+}
+
+.wenp h5{
+	width: 910px;
+	font-size:14px;
+	line-height: 60px;
+	text-align: center; 
+	border-bottom: 1px solid #0e7a8a;
+	margin-bottom: 40px;
+}
+.wenp p{
+	width: 910px;
+	font-size:14px;
+	line-height: 40px;
+	text-indent: 2em;
+}
+
+.wenp img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 20px auto;
+}
+
+.wenp .body table{width:96%; border-collapse:collapse;position: relative;}
+.wenp .body table td, .customers th {font-size:1em;border:1px solid #653f06;padding:3px 7px 2px 7px;}
+.wenp .body table th {font-size:1.1em;text-align:left;padding-top:5px;padding-bottom:4px;background-color:#80520d;color:#ffffff;}
+.wenp .body table tr.alt td {color:#000000;background-color:#daa960;}
+.wenp .body a {color: #333; }
+.wenp .body span{ width: auto; display: inline; margin: auto; font-size: 14px; }
+.wenp .body img {
+    max-width: 96%;
+    margin-top: 10px;
+    height: auto !important;
+    border: none;
+}
+
+.erji .zhuti .gudinggao{
+	height: 1000px;
+	overflow: hidden;
+}
