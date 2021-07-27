@@ -112,7 +112,15 @@ section p{
 	width: 7.5rem;
 	margin-top: .3rem;
 }
-
+.footer h5 {
+    width: 1080px;
+    margin: 20px auto;
+    font-size: 14px;
+    line-height: 120px;
+    color: #636363;
+    text-align: center;
+    border-bottom: 1px solid #636363;
+}
 
 .footer p{
 	width: 7.2rem;
