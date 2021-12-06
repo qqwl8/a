@@ -180,6 +180,9 @@ section .container{
     width: 25%;
     text-align: center;
 }
+.zoning ul li span .time{
+    width: 30%;
+}
 
 .pox{
     height: 57px;
